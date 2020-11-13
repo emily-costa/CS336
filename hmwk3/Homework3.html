@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <!-- Emily Costa, eac33, 9/28/2020 -->
+
+    <head>
+        <title>CS336 Hidden hints</title>
+    </head>
+
+    <body>
+        <h1>RIDDLE</h1>
+
+        <p>
+            What comes once in a minute, twice in a moment, but never in a thousand years? <br><br>
+            <button onclick="display()" id="hide">Click for Answer!</button>
+        </p>
+
+        <div id="answer" display="none" hidden>The letter "m".</div>
+
+        <script>
+            function display(){
+                //ternary operator to show/hide answer
+                document.getElementById("answer").style.display === "block" ? document.getElementById("answer").style.display = "none" : document.getElementById("answer").style.display = "block";
+                //ternary operator to change the text of the button
+                document.getElementById("hide").innerHTML === "Click for Answer!" ? document.getElementById("hide").innerHTML = "Click to Hide!" : document.getElementById("hide").innerHTML = "Click for Answer!";
+            }
+        </script>
+
+    </body>
+</html>

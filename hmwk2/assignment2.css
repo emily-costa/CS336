@@ -1,0 +1,45 @@
+/* styling the Calvin logo at the top and center */
+.logo {
+    display: block;
+    width: 30%;
+    height: 15%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+/* styling search bar at the top and right of the Calvin logo */
+.searchBar {
+    float: right;
+    background-color: lightgray;
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+/* styling the menu bar */
+ul {
+    background-color: #800000;
+    list-style-type: none;
+    margin: auto;
+    padding: 10px;
+    text-align: center;
+    font-size: 2vw;
+    font: Sans-serif;
+}
+/* styling the list elements in the menu bar */
+li {
+    display: inline;
+    padding: 10 50px;
+    color: white;
+}
+/* styling the menu bar so when hovering over a list element it changes color */
+li:hover {
+    background-color: #660000;
+    color: yellow;
+}
+/* styling text below the menu bar to be big and centered  */
+.text {
+    font: Sans-serif;
+    font-size: 3vw;
+    padding: 50px;
+    text-align: center;
+}
